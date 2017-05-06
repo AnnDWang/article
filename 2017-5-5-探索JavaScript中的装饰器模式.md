@@ -10,7 +10,7 @@ target是指目标构造函数。例如，如果装饰器在class的构造函数
 
 name就是指向方法的method。class构造函数的装饰器没有name。
 
-descriptor描述的是数据和访问器。如果你曾经使用过Object.defineProperty()，说明你使用过描述符。数据和访问器的描述符都共享所需的keys，configurable （可修改的）enumerable（例如 可以被for...in遍历到）。数据描述符有其他的keys，value 和 writable（重新赋值）。访问器有其他的keys：get（getter）和set（setter）。
+descriptor描述的是数据和访问器。如果你曾经使用过Object.defineProperty()，说明你使用过描述符（descriptor）。数据和访问器的描述符都共享所需的keys，configurable （可修改的）enumerable（例如 可以被for...in遍历到）。数据描述符有其他的keys，value 和 writable（重新赋值）。访问器有其他的keys：get（getter）和set（setter）。
 
 一个使用数据descriptor来修改属性的例子：
 
